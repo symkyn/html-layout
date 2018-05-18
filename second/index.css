@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+
+.shapes-box {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 20px 50px;
+    height: 30vh;
+    box-sizing: border-box;
+}
+
+.rectangle-1 {
+    display:inline-block;
+    margin: 4px;
+    height: 130px;
+    width: 30px;
+    background-color: blueviolet;
+}
+
+.rectangle-2 {
+    display:inline-block;
+    margin: 4px;
+    height: 180px;
+    width: 400px;
+    background-color: green;
+}
+
+.circle {
+    display:inline-block;
+    margin: 4px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: skyblue;
+}
+
+.shadow-box {
+    border: 2px dashed black;
+    padding: 5px;
+    margin: 20px 50px;
+    height: 30vh;
+    box-sizing: border-box;
+}
+
+.internal-box {
+    background-color: rosybrown;
+    height: 130px;
+    width: 96%;
+    margin: 25px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+}
+
+.text-box {
+    border: 2px solid black;
+    padding: 60px;
+    margin: 20px auto;
+    height: 30vh;
+    width: 33%;
+    box-sizing: border-box;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blue;
+}
